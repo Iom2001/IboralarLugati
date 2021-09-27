@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Iboralar Lug\'ati</string>
+    <string name="asosiy">Asosiy</string>
+    <string name="tanlangan">Tanlangan</string>
+    <string name="kategoriya">Kategoriya</string>
+    <string name="button_cancel">Cancel</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="uz.creater.iboralarlugati.fragments.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/action_signInFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_firstHostFragment"
+            app:destination="@id/firstHostFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="uz.creater.iboralarlugati.fragments.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration">
+        <action
+            android:id="@+id/action_registrationFragment_to_firstHostFragment"
+            app:destination="@id/firstHostFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/firstHostFragment"
+        android:name="uz.creater.iboralarlugati.fragments.FirstHostFragment"
+        android:label="fragment_first_host"
+        tools:layout="@layout/fragment_first_host">
+        <action
+            android:id="@+id/action_firstHostFragment_to_listLikeFragment"
+            app:destination="@id/listLikeFragment" />
+        <action
+            android:id="@+id/action_firstHostFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listLikeFragment"
+        android:name="uz.creater.iboralarlugati.fragments.ListLikeFragment"
+        android:label="fragment_list_like"
+        tools:layout="@layout/fragment_list_like">
+        <action
+            android:id="@+id/action_listLikeFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="uz.creater.iboralarlugati.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/secondHostFragment"
+        android:name="uz.creater.iboralarlugati.fragments.SecondHostFragment"
+        android:label="fragment_second_host"
+        tools:layout="@layout/fragment_second_host" />
+
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="uz.creater.iboralarlugati.fragments.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+
+</navigation>

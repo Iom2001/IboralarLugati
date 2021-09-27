@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/ic_category"
+        android:title="@string/kategoriya" />
+    <item
+        android:id="@+id/tab_alarm"
+        android:icon="@drawable/ic_shape__2_"
+        android:title="So'zlar" />
+
+</menu>

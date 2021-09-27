@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "291360064705",
+    "project_id": "iboralar-lug-ati",
+    "storage_bucket": "iboralar-lug-ati.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291360064705:android:eade19d75cab07a1810040",
+        "android_client_info": {
+          "package_name": "uz.creater.iboralarlugati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291360064705-vjm2gu94d26khtd24p7dhjkmd51855nf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhyU-ZMK2QT27hR5He58N2LRl4rXp1_AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291360064705-vjm2gu94d26khtd24p7dhjkmd51855nf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
